@@ -1,5 +1,5 @@
 {
-	"name"        : "justintadlock/hybrid-core",
+	"name"        : "themehybrid/hybrid-contracts",
 	"description" : "Contracts for the Hybrid Core framework.",
 	"keywords"    : [ "wordpress" ],
 	"homepage"    : "https://themehybrid.com/hybrid-core",
@@ -13,7 +13,7 @@
 		}
 	],
 	"support"     : {
-		"issues" : "https://github.com/justintadlock/hybrid-core/issues",
+		"issues" : "https://github.com/themehybrid/hybrid-contracts/issues",
 		"forum"  : "https://themehybrid.com/board/forums/hybrid-core"
 	},
 	"autoload"    : {
