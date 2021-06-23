@@ -1,6 +1,6 @@
 # Hybrid Contracts
 
-Hybrid Contracts is an add-on package for the Hybrid Core WordPress framework. This package provides necessary contracts for the framework.
+Standalone package that provides general-usage interfaces for the Hybrid Core framework.
 
 ## Requirements
 
