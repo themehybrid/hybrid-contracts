@@ -8,17 +8,6 @@ Standalone package that provides general-usage interfaces for the Hybrid Core fr
 * PHP 5.6+ (7.0+ recommended).
 * [Composer](https://getcomposer.org/) for managing PHP dependencies.
 
-## Documentation
-
-This project is a part of the Hybrid Core framework. It may require other packages, which will be installed via Composer.
-
-### Installation
-
-Use the following command from your preferred command line utility to install the package.
-
-```bash
-composer require themehybrid/hybrid-contracts
-```
 ## Copyright and License
 
 This project is licensed under the [GNU GPL](http://www.gnu.org/licenses/old-licenses/gpl-2.0.html), version 2 or later.
