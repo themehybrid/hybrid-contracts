@@ -2,6 +2,25 @@
 
 You can see the changes made via the [commit log](https://github.com/themehybrid/hybrid-contracts/commits/master) for the latest release.
 
+## [7.0.0.alpha.1] - 2023-02-04
+
+### Added
+
+- Added contracts
+  - Arrayable
+  - CanBeEscapedWhenCastToString
+  - Config\Repository
+  - Events\Dispatcher
+  - Filesystem\Factory
+  - Filesystem\FileNotFoundException
+  - Filesystem\Filesystem
+  - Filesystem\LockTimeoutException
+  - Htmlable
+  - Jsonable
+  - View\Engine
+  - View\Factory
+  - View\View
+
 ## [6.0.0] - 2021-03-15
 
 ### Added
