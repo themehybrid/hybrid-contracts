@@ -9,8 +9,8 @@
  * recommended to use an alternate method name, such as `get()`, and not use
  * this contract.
  *
- * @package   HybridCore
- * @link      https://themehybrid.com/hybrid-core
+ * @package   HybridContracts
+ * @link      https://github.com/themehybrid/hybrid-contracts
  *
  * @author    Justin Tadlock <justintadlock@gmail.com>
  * @copyright Copyright (c) 2008 - 2021, Justin Tadlock

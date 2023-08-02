@@ -8,8 +8,8 @@
  * the class constructor. Most bootable classes are meant to be single-instance
  * classes that get loaded once per page request.
  *
- * @package   HybridCore
- * @link      https://themehybrid.com/hybrid-core
+ * @package   HybridContracts
+ * @link      https://github.com/themehybrid/hybrid-contracts
  *
  * @author    Justin Tadlock <justintadlock@gmail.com>
  * @copyright Copyright (c) 2008 - 2021, Justin Tadlock

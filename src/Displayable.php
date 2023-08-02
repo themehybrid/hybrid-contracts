@@ -6,8 +6,8 @@
  * method is to output an HTML string to the screen. This data should already be
  * escaped prior to being output.
  *
- * @package   HybridCore
- * @link      https://themehybrid.com/hybrid-core
+ * @package   HybridContracts
+ * @link      https://github.com/themehybrid/hybrid-contracts
  *
  * @author    Justin Tadlock <justintadlock@gmail.com>
  * @copyright Copyright (c) 2008 - 2021, Justin Tadlock
