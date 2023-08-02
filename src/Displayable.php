@@ -9,9 +9,9 @@
  * @package   HybridContracts
  * @link      https://github.com/themehybrid/hybrid-contracts
  *
- * @author    Justin Tadlock <justintadlock@gmail.com>
- * @copyright Copyright (c) 2008 - 2021, Justin Tadlock
- * @license   http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
+ * @author    Theme Hybrid
+ * @copyright Copyright (c) 2008 - 2023, Theme Hybrid
+ * @license   https://www.gnu.org/licenses/old-licenses/gpl-2.0.html
  */
 
 namespace Hybrid\Contracts;
