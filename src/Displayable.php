@@ -7,9 +7,10 @@
  * escaped prior to being output.
  *
  * @package   HybridCore
+ * @link      https://themehybrid.com/hybrid-core
+ *
  * @author    Justin Tadlock <justintadlock@gmail.com>
  * @copyright Copyright (c) 2008 - 2021, Justin Tadlock
- * @link      https://themehybrid.com/hybrid-core
  * @license   http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
  */
 
@@ -19,16 +20,19 @@ namespace Hybrid\Contracts;
  * Displayable interface.
  *
  * @since  1.0.0
+ *
  * @access public
  */
 interface Displayable {
 
-	/**
-	 * Prints the HTML string.
-	 *
-	 * @since  1.0.0
-	 * @access public
-	 * @return void
-	 */
-	public function display();
+    /**
+     * Prints the HTML string.
+     *
+     * @since  1.0.0
+     * @return void
+     *
+     * @access public
+     */
+    public function display();
+
 }

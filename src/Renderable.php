@@ -10,9 +10,10 @@
  * this contract.
  *
  * @package   HybridCore
+ * @link      https://themehybrid.com/hybrid-core
+ *
  * @author    Justin Tadlock <justintadlock@gmail.com>
  * @copyright Copyright (c) 2008 - 2021, Justin Tadlock
- * @link      https://themehybrid.com/hybrid-core
  * @license   http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
  */
 
@@ -22,16 +23,19 @@ namespace Hybrid\Contracts;
  * Renderable interface.
  *
  * @since  1.0.0
+ *
  * @access public
  */
 interface Renderable {
 
-	/**
-	 * Returns an HTML string for output.
-	 *
-	 * @since  1.0.0
-	 * @access public
-	 * @return string
-	 */
-	public function render();
+    /**
+     * Returns an HTML string for output.
+     *
+     * @since  1.0.0
+     * @return string
+     *
+     * @access public
+     */
+    public function render();
+
 }
