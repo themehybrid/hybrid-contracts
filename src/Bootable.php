@@ -8,11 +8,12 @@
  * the class constructor. Most bootable classes are meant to be single-instance
  * classes that get loaded once per page request.
  *
- * @package   HybridCore
- * @author    Justin Tadlock <justintadlock@gmail.com>
- * @copyright Copyright (c) 2008 - 2021, Justin Tadlock
- * @link      https://themehybrid.com/hybrid-core
- * @license   http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
+ * @package   HybridContracts
+ * @link      https://github.com/themehybrid/hybrid-contracts
+ *
+ * @author    Theme Hybrid
+ * @copyright Copyright (c) 2008 - 2023, Theme Hybrid
+ * @license   https://www.gnu.org/licenses/old-licenses/gpl-2.0.html
  */
 
 namespace Hybrid\Contracts;
@@ -21,16 +22,19 @@ namespace Hybrid\Contracts;
  * Bootable interface.
  *
  * @since  1.0.0
+ *
  * @access public
  */
 interface Bootable {
 
-	/**
-	 * Boots the class by running `add_action()` and `add_filter()` calls.
-	 *
-	 * @since  1.0.0
-	 * @access public
-	 * @return void
-	 */
-	public function boot();
+    /**
+     * Boots the class by running `add_action()` and `add_filter()` calls.
+     *
+     * @since  1.0.0
+     * @return void
+     *
+     * @access public
+     */
+    public function boot();
+
 }

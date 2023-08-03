@@ -9,11 +9,12 @@
  * recommended to use an alternate method name, such as `get()`, and not use
  * this contract.
  *
- * @package   HybridCore
- * @author    Justin Tadlock <justintadlock@gmail.com>
- * @copyright Copyright (c) 2008 - 2021, Justin Tadlock
- * @link      https://themehybrid.com/hybrid-core
- * @license   http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
+ * @package   HybridContracts
+ * @link      https://github.com/themehybrid/hybrid-contracts
+ *
+ * @author    Theme Hybrid
+ * @copyright Copyright (c) 2008 - 2023, Theme Hybrid
+ * @license   https://www.gnu.org/licenses/old-licenses/gpl-2.0.html
  */
 
 namespace Hybrid\Contracts;
@@ -22,16 +23,19 @@ namespace Hybrid\Contracts;
  * Renderable interface.
  *
  * @since  1.0.0
+ *
  * @access public
  */
 interface Renderable {
 
-	/**
-	 * Returns an HTML string for output.
-	 *
-	 * @since  1.0.0
-	 * @access public
-	 * @return string
-	 */
-	public function render();
+    /**
+     * Returns an HTML string for output.
+     *
+     * @since  1.0.0
+     * @return string
+     *
+     * @access public
+     */
+    public function render();
+
 }
