@@ -1,6 +1,6 @@
 # Contributing
 
-The code for the framework is handled via its [GitHub Repository](https://github.com/justintadlock/hybrid-core).  You can open tickets, create patches, and send pull requests there.
+The code is handled via its [GitHub Repository](https://github.com/themehybrid/hybrid-contracts).  You can open tickets, create patches, and send pull requests there.
 
 ## Pull requests
 
@@ -12,7 +12,7 @@ Please don't make pull requests against the `master` branch.  This is the latest
 
 ## Theme review guidelines
 
-Hybrid Core is developed with the WordPress.org [theme review guidelines](https://make.wordpress.org/themes/handbook/review) in mind.  While the framework is not a theme in and of itself, many theme authors use it within their themes on the official theme repository.  These guidelines should sufficiently cover any other marketplace or theme shop rules for submission.  All new features and code changes must abide by these guidelines to make it into the project.
+Hybrid Contracts is developed with the WordPress.org [theme review guidelines](https://make.wordpress.org/themes/handbook/review) in mind.  These guidelines should sufficiently cover any other marketplace or theme shop rules for submission.  All new features and code changes must abide by these guidelines to make it into the project.
 
 ## Coding standards
 
@@ -31,7 +31,7 @@ All text strings follow U.S. English by default.  While such guides are generall
 
 ## Licensing
 
-Any code contributed to Hybrid Core via patches, pull requests, or other means will be licensed under the [GPL version 2](https://www.gnu.org/licenses/old-licenses/gpl-2.0.html) or later.  By contributing code to the project, you provide consent to use such code under this license.  The exception to this rule is when bringing in third-party code with an alternate open source license.
+Any code contributed to Hybrid Contracts via patches, pull requests, or other means will be licensed under the [GPL version 2](https://www.gnu.org/licenses/old-licenses/gpl-2.0.html) or later.  By contributing code to the project, you provide consent to use such code under this license.  The exception to this rule is when bringing in third-party code with an alternate open source license.
 
 ## Versioning
 

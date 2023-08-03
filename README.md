@@ -1,6 +1,6 @@
 # Hybrid Contracts
 
-Standalone package that provides general-usage interfaces for the Hybrid Core framework.
+A Standalone package that provides general usage interfaces for the Hybrid Core framework.
 
 ## Requirements
 
