@@ -5,7 +5,7 @@ A Standalone package that provides general usage interfaces for the Hybrid Core 
 ## Requirements
 
 * WordPress 4.9.6+.
-* PHP 7.4+ (8.0+ recommended).
+* PHP 8.0+ (8.1+ recommended).
 * [Composer](https://getcomposer.org/) for managing PHP dependencies.
 
 ## Copyright and License
