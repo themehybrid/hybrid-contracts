@@ -1,21 +1,4 @@
 <?php
-/**
- * Renderable contract.
- *
- * Renderable classes should implement a `render()` method that returns an HTML
- * string ready for output to the screen. While there's no way to ensure this
- * via the contract, the intent here is for anything that's renderable to already
- * be escaped. For clarity in the code, when returning raw data, it is
- * recommended to use an alternate method name, such as `get()`, and not use
- * this contract.
- *
- * @package   HybridContracts
- * @link      https://github.com/themehybrid/hybrid-contracts
- *
- * @author    Theme Hybrid
- * @copyright Copyright (c) 2008 - 2023, Theme Hybrid
- * @license   https://www.gnu.org/licenses/old-licenses/gpl-2.0.html
- */
 
 namespace Hybrid\Contracts;
 

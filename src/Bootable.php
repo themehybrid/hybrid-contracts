@@ -1,20 +1,4 @@
 <?php
-/**
- * Bootable interface.
- *
- * Defines the contract that bootable classes should utilize. Bootable classes
- * should have a `boot()` method with the singular purpose of "booting" the
- * action and filter hooks for that class. This keeps action/filter calls out of
- * the class constructor. Most bootable classes are meant to be single-instance
- * classes that get loaded once per page request.
- *
- * @package   HybridContracts
- * @link      https://github.com/themehybrid/hybrid-contracts
- *
- * @author    Theme Hybrid
- * @copyright Copyright (c) 2008 - 2023, Theme Hybrid
- * @license   https://www.gnu.org/licenses/old-licenses/gpl-2.0.html
- */
 
 namespace Hybrid\Contracts;
 
