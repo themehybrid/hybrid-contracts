@@ -2,6 +2,8 @@
 
 You can see the changes made via the [commit log](https://github.com/themehybrid/hybrid-contracts/commits/master) for the latest release.
 
+## [2.0.0] - 2023-08-23
+
 ## [2.0.0-alpha.1] - 2023-02-04
 
 ### Added
