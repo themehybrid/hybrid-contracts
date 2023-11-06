@@ -41,9 +41,9 @@ interface Filesystem {
     /**
      * Write the contents of a file.
      *
-     * @param  string          $path
-     * @param  string|resource $contents
-     * @param  mixed           $options
+     * @param  string                                            $path
+     * @param  \Psr\Http\Message\StreamInterface|string|resource $contents
+     * @param  mixed                                             $options
      * @return bool
      */
     public function put( $path, $contents, $options = [] );
