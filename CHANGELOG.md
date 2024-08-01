@@ -2,6 +2,15 @@
 
 You can see the changes made via the [commit log](https://github.com/themehybrid/hybrid-contracts/commits/master) for the latest release.
 
+## [2.0.2] - 2024-08-01
+
+### Changed
+
+- sync with https://github.com/illuminate/contracts/releases/tag/v11.18.1
+- Add composer sort-packages configuration
+- Update copyright date
+- Update lint php
+
 ## [2.0.1] - 2023-11-06
 
 ### Changed

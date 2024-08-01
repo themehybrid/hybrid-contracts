@@ -27,5 +27,8 @@
 		"psr-4": {
 			"Hybrid\\Contracts\\": "src/"
 		}
+	},
+	"config": {
+		"sort-packages": true
 	}
 }

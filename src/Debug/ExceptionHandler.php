@@ -22,7 +22,7 @@ interface ExceptionHandler {
     /**
      * Render an exception into an HTTP response.
      *
-     * @param  \Hybrid\Http\Request $request
+     * @param \Hybrid\Http\Request $request
      * @return \Symfony\Component\HttpFoundation\Response
      * @throws \Throwable
      */
@@ -31,7 +31,7 @@ interface ExceptionHandler {
     /**
      * Render an exception to the console.
      *
-     * @param  \Symfony\Component\Console\Output\OutputInterface $output
+     * @param \Symfony\Component\Console\Output\OutputInterface $output
      * @return void
      * @internal This method is not meant to be used or overwritten outside the framework.
      */
