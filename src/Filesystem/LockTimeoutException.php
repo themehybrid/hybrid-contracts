@@ -2,6 +2,8 @@
 
 namespace Hybrid\Contracts\Filesystem;
 
-class LockTimeoutException extends \Exception {
+use Exception;
+
+class LockTimeoutException extends Exception {
 
 }

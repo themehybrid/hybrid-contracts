@@ -5,7 +5,6 @@ namespace Hybrid\Contracts\View;
 use Hybrid\Contracts\Renderable;
 
 interface View extends Renderable {
-
     /**
      * Get the name of the view.
      *
@@ -18,6 +17,7 @@ interface View extends Renderable {
      *
      * @param string|array $key
      * @param mixed        $value
+     *
      * @return $this
      */
     public function with( $key, $value = null );
@@ -28,5 +28,4 @@ interface View extends Renderable {
      * @return array
      */
     public function getData();
-
 }
