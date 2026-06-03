@@ -16,7 +16,7 @@ Hybrid Contracts is developed with the WordPress.org [theme review guidelines](h
 
 ## Coding standards
 
-Hybrid Core follows a mixture of the following standards.
+Hybrid Contracts follows a mixture of the following standards.
 
 - [PSR-1: Basic Coding Standard](https://www.php-fig.org/psr/psr-1)
 - [PSR-2: Coding Style](https://www.php-fig.org/psr/psr-2/)
@@ -35,4 +35,4 @@ Any code contributed to Hybrid Contracts via patches, pull requests, or other me
 
 ## Versioning
 
-Hybrid Core uses [semantic versioning](https://semver.org).  Version numbers will look like `3.2.1` where `3` is the "major" release, `2` is the minor release, and `1` is the patch release.
+Hybrid Contracts uses [semantic versioning](https://semver.org).  Version numbers will look like `3.2.1` where `3` is the "major" release, `2` is the minor release, and `1` is the patch release.

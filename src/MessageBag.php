@@ -5,7 +5,6 @@ namespace Hybrid\Contracts;
 use Countable;
 
 interface MessageBag extends Arrayable, Countable {
-
     /**
      * Get the keys present in the message bag.
      *
@@ -18,6 +17,7 @@ interface MessageBag extends Arrayable, Countable {
      *
      * @param string $key
      * @param string $message
+     *
      * @return $this
      */
     public function add( $key, $message );
@@ -26,6 +26,7 @@ interface MessageBag extends Arrayable, Countable {
      * Merge a new array of messages into the bag.
      *
      * @param \Hybrid\Contracts\MessageProvider|array $messages
+     *
      * @return $this
      */
     public function merge( $messages );
@@ -34,6 +35,7 @@ interface MessageBag extends Arrayable, Countable {
      * Determine if messages exist for a given key.
      *
      * @param string|array $key
+     *
      * @return bool
      */
     public function has( $key );
@@ -43,6 +45,7 @@ interface MessageBag extends Arrayable, Countable {
      *
      * @param string|null $key
      * @param string|null $format
+     *
      * @return string
      */
     public function first( $key = null, $format = null );
@@ -52,6 +55,7 @@ interface MessageBag extends Arrayable, Countable {
      *
      * @param string      $key
      * @param string|null $format
+     *
      * @return array
      */
     public function get( $key, $format = null );
@@ -60,6 +64,7 @@ interface MessageBag extends Arrayable, Countable {
      * Get all of the messages for every key in the bag.
      *
      * @param string|null $format
+     *
      * @return array
      */
     public function all( $format = null );
@@ -68,6 +73,7 @@ interface MessageBag extends Arrayable, Countable {
      * Remove a message from the bag.
      *
      * @param string $key
+     *
      * @return $this
      */
     public function forget( $key );
@@ -90,6 +96,7 @@ interface MessageBag extends Arrayable, Countable {
      * Set the default message format.
      *
      * @param string $format
+     *
      * @return $this
      */
     public function setFormat( $format = ':message' );
@@ -107,5 +114,4 @@ interface MessageBag extends Arrayable, Countable {
      * @return bool
      */
     public function isNotEmpty();
-
 }

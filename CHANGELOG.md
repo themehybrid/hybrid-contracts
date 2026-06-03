@@ -2,6 +2,15 @@
 
 You can see the changes made via the [commit log](https://github.com/themehybrid/hybrid-contracts/commits/master) for the latest release.
 
+## [2.0.3] - 2026-06-03
+
+### Changed
+
+- sync with https://github.com/illuminate/support/releases/tag/v12.58.0
+- sync with https://github.com/illuminate/framework/releases/tag/v12.58.0
+- lint php files
+- Requires PHP 8.2 as minimum version
+
 ## [2.0.2] - 2024-08-01
 
 ### Changed
