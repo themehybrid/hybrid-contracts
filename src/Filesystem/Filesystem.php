@@ -6,12 +6,12 @@ interface Filesystem {
     /**
      * The public visibility setting.
      */
-    const string VISIBILITY_PUBLIC = 'public';
+    const VISIBILITY_PUBLIC = 'public';
 
     /**
      * The private visibility setting.
      */
-    const string VISIBILITY_PRIVATE = 'private';
+    const VISIBILITY_PRIVATE = 'private';
 
     /**
      * Get the full path to the file that exists at the given relative path.
