@@ -2,6 +2,14 @@
 
 You can see the changes made via the [commit log](https://github.com/themehybrid/hybrid-contracts/commits/master) for the latest release.
 
+## [2.0.4] - 2026-10-23
+
+### Fixed
+
+- Parse on PHP 8.2: `Filesystem` declared `VISIBILITY_PUBLIC` and
+  `VISIBILITY_PRIVATE` as typed class constants, which need PHP 8.3, so
+  loading the interface on 8.2 failed with a parse error.
+
 ## [2.0.3] - 2026-06-03
 
 ### Changed
